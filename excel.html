@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="CSS/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <header> 
+        <nav> 
+            <ul> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="excel.html">Excel</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+    <h1> Excel Functions </h1>
+    <main> 
+        <form id="main-form" name="mainform"> 
+            <label for ="numbers"> Enter your numbers separated by spaces: </label> 
+            <input type="text" id="numbers" name="numbers" maxlength="25" required> <br/><br/>
+            
+
+
+            <fieldset>
+                <legend>Select your choice:</legend>
+                <div>
+                  <input type="radio" id="autoSum" name="calcul" checked>
+                  <label>AutoSum</label>
+                </div>
+                <div>
+                    <input type="radio" id="average" name="calcul">
+                    <label>Average</label>
+                  </div>
+                <div>
+                    <input type="radio" id="max" name="calcul">
+                    <label>Max</label>
+                  </div>
+                <div>
+                    <input type="radio" id="min" name="calcul">
+                    <label>Min</label>
+                </div>
+            </fieldset>
+        </br>
+            <input class="bouton" type="button" value="Calculate" id="calculate" onclick="myExcelFuns();">
+        </form> 
+ 
+        <div id="output"> 
+            <p id="result"> answer: </p> 
+        </div> 
+    </main> 
+</div>
+    <footer> 
+        <p> 
+    ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Alixia LARDEAU 
+  </p> 
+    </footer> 
+    <script src="JS/main.js"></script>
+</body>
+</html>

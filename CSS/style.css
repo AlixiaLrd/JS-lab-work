@@ -1,0 +1,83 @@
+body{
+    background-color:rgb(228, 221, 214);
+    margin:0,0,0,0;
+}
+
+form{
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: auto;
+    border: 0px solid rgb(0, 0, 0);
+    background-color: rgb(200, 234, 255);
+    border-radius: 12px;
+}
+
+h1{
+    text-align: center;
+}
+
+.bouton{
+    background-color: rgb(2, 44, 151);
+    border-radius: 4px;
+    border: 0cm;
+}
+
+
+header{
+    background-color: rgb(200, 234, 255);
+}
+
+.container{
+    width: 950px;
+    margin-top: 5px;
+    margin-bottom: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(194, 236, 241);
+}
+
+footer{
+    font-size:100% ;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(108, 193, 216);
+}
+nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+fieldset{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    border: 1px solid rgb(79, 169, 224);
+    background-color: rgb(73, 207, 227);
+}
+
+legend{
+    background-color:rgb(2, 44, 151);
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: Opx;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+}
+
+input{
+    border:1px solid rgb(255, 255, 255);
+    padding: 2px;
+    background-color: rgb(2, 44, 151);
+    color: rgb(255, 255, 255)
+}
+
